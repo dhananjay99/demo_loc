@@ -12,7 +12,7 @@ public class MainController {
 	@GetMapping("/locaions")
 	public List<Location> getLocations() {
 		List<Location> loc=new ArrayList<Location>();
-		
+		System.out.println("My Jenkins and docker testing");
 		Location l1=new Location("India", "Near Mumbai", 245.00);
 		Location l2=new Location("India Well", "Near Delhi", 345.00);
 		loc.add(l1);
